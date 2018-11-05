@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!-- déclare type html-->
+ <!DOCTYPE html> <!-- déclare type html-->
 <html>
 	<head> <!-- contient métadonnées + liens -->
 		<title> Veille Technologique MySQL </title>
@@ -9,40 +9,133 @@
 		<meta name="description" content="desc">
 		<meta name="keywords" content="veille , technologique , veille technologique, SQL">
 	</head>
+	
 	<body>
-		<div id="menu">
-			<ul>
-				<!--Menu de navigation du site -->
-				<li><a href="index.html">ACCUEIL</a></li>
-				<li><a href="a savoir.html">A SAVOIR</a></li>
-				<li><a href="infos.html">INFOS</a></li>
-				<li><a href="contact.html">CONTACTS</a></li>
-			<ul>
-		</div>
-			<!-- titre de la page web -->
-		<h1 style="text-align:center;">Veille technologique MySql</h1>
-		<img src="http://www.nglesson.com/img/sql.png" height="352" width="470""align="center">
-		
-		<h2 style="text-align:center;">L'histoire MySql</h2>
+	<link rel="stylesheet" type="text/css" href="STYLE.css" />
+		<h1 style="text-align:center;">Veille technologique MySql</h1> </u>		
+		<nav>
+			<div class="table">
+				<ul>
+					<!--Menu de navigation du site -->
+					<li class="menu-ind">
+						<a href="index.html">Accueil</a>
+					</li>
+					<li class="menu-exp">
+						<a href="ApprendreSQL.html">Apprendre MYSQL</a>
+					</li>
+					<li class="menu-hob">
+					<a href="Toutsavoir.html">Tout savoir sur MySQL</a>
+					</li>
+					<li class="menu-con">
+					<a href="contact.html">Contactez-nous</a>
+					</li>
+				</ul>
+			</div>
+		</nav>	
+			<u>
+			<h2 style="text-align:center;">Sommaire </h2></u>
+				<ul id="navigation">
+					<li><a href="#" title="L'histoire de MySql">L'histoire de MySql</a></li>
+					<li><a href="#" title="Les licences">Les licences</a></li>
+					<li><a href="#" title="MySql Workbench">MySql Workbench</a></li>
+					<li><a href="#" title="Installer MySql">Installer MySql</a></li>
+					<li><a href="#" title="Versions et plates-formes">Versions et plates-formes</a></li>
+				</ul>
+			<u>
+			<h2 style="text-align:center;">L'histoire de MySql</h2> </u>
 				<!-- histoire du MySql -->
-				<p style="text-align:flushleft;"> 1ère version 23 mai 1995. 
-			MySQL a été acheté le 16 janvier 2008 pour 1 milliard de dollarspar Sun Microsystems. 
-			En 2009,Sun Microsystems a été acquis par Oracle Corporation, mettant entre les mains d'une même société les deux produits concurrents que sont Oracle Database et MySQL. 
-			MySQL est un serveur de base de données développé dans des performances élevées en lecture. 
-			MySQL fonctionne sur différents systèmes d'exploitation tels que Windows,Linux,Mac OS et supporte deux langages informatique : le langage de requête SQL et le SQL/PSM.
-				</p>
-				
-		<h2 style="text-align:center;">Versions de SQL </h2>
-		<ul>
-			<li> 1989 : SQL server 1.0 </li>
-			<li> 1991 : SQL server 1.1 </li>
-			<li> 1992 ; SQL server 4.2A </li>
-			<li>1993 : SQL server 4.2B </li>
-			<li> 1993 : SQL server 4.21a </li>
-			<li> 1995 : SQL server 6.0 </li>
-			<li> 1996 : SQL server 6.5 </li>
-		</ul>
-			</body>
-	<body style="background-color:lightblue;">
+					<p style="text-align:flushleft;"> MySQL est un <B>système de gestion de bases de données relationnelles</B>. Il est distribué sous une double licence GPL et propriétaire. Sa 1ère version est sortie le 23 mai 1995 par la société MYSQLAB, son succès est dû à son caractère Open source.
+						MySQL a été acheté le 16 janvier 2008 pour 1 milliard de dollars par Sun Microsystems. 
+						En 2009,Sun Microsystems a été acquis par <B>Oracle Corporation</B>, mettant entre les mains d'une même société les deux produits concurrents que sont Oracle Database et MySQL. 
+						MySQL est un serveur de base de données développé dans des performances élevées en lecture. 
+						MySQL fonctionne sur différents systèmes d'exploitation tels que <B>Windows,Linux,Mac OS</B> et supporte deux langages informatique : <B>le langage de requête SQL et le SQL/PSM</B>.
+						Le langage de requête SQL est un langage informatique utilisé pour accéder aux données d'une base de données ou d'autres systèmes d'information. Il permet d'obtenir les données vérifiant certaines conditions, comme toutes les personnes qui habitent une ville donnée. Les données peuvent être triées, elles peuvent également être regroupées suivant les valeurs d'une donnée particulière.
+						SQL / PSM ( SQL / modules persistants stockés) est une norme ISO qui définit principalement une extension de SQL avec un langage procédural à utiliser dans les procédures stockées .
+					</p>
+				<a
+					href="https://www.mysql.com/fr/"
+					target="_blank">
+				<img 
+					alt="Logo MySql" 
+					Title="Logo MySql"
+					src="http://www.nglesson.com/img/sql.png" height="352" width="470""align="center"/>
+				</a>
+			<u>
+				<h2 style="text-align:center;">Les licences</h2> </u>
+			<u>	<p style="text-align:flushleft;"> Deux types de licences sont proposées par MysQL:
+				</p> </u>
+		<li> Licence Commerciale </li>
+		<p style="text-align:flushleft;"> Licence payante regroupant plusieurs éditions, MySql Standard, MySql Enterprise, MySql Cluster et MySql Embedded. </p>
+		<li> Licence GPL (MySQL gratuit)</li>
+		<p style="text-align:flushleft;"> MySql Community Edition.
+	<u> <h2 style="text-align:center;"> MySql Workbench</h2> </u>
+		<p style="text-align:flushleft;"> Workbench est un outil graphique puissant déstiné aux: BDA, développeurs et concepteurs.
+		Il offre les outils nécessaires pour: Modéliser les données, développement SQL, la configuration du serveur de BD, sauvegarde etc.
+		il est disponible sous Windows, Linux et Mac OS X </p>
+		<p><U>Les principales caractéristiques de MySql Workbench sont les suivantes:</U></p>
+		<p><B>General</B></p>
+		<li> Connexion à la base de données et gestion des instances</li>
+		<li>Actions dirigées par un assistant</li>
+		<li>Entièrement scriptable avec Python et Lua</li>
+		<li>Prise en charge des plugins personnalisés</li>
+		<li>Compatible avec MSAA (windows accessibility API)</li>
+		<li>Prise en charge des fonctionnalités de MySQL Entreprise</li>
+		<p><B>Éditeur SQL</B><p>
+		<li>Navigation, inspection et recherche des objets de schéma</li>
+		<li>Surligneur de syntaxe SQL et analyseur d'instructions</li>
+		<li>Complétion de code SQL et aide contextuelle</li>
+		<li>Ensembles des résultats multiples et modifiables</li>
+		<li>Visual EXPLAIN</li>
+		<li>Collections d'extraits de code SQL</li>
+		<li>Tunneling de connexion SSH</li>
+		<li>Support Unicode</li>
+		<p><B>La modélisation des données</B></p>
+		<li>Diagramme ER</li>
+		<li>Modélisation visuelle Drag'n'Drop</li>
+		<li>Synchronisation de schéma</li>
+		<li>Impresion de modèles</li>
+		<p><B>Administration des bases de données</p></B>
+		<li>Démarrer et arrêter des instances de base de données</li>
+		<li>Configuration de l'instance</li>
+		<li>Gestion de compte de base de données</li>
+		<li>Parcourir les variables d'instance</li>
+		<li>Navigation dans le fichier journal</li>
+		<li>Import/export de données</li>
+		<p><B>Suivi de la performance</B><p>
+		<li>Métriques du schéma de performances</li>
+		<li>Tableau de bord d'instance MySql</li>
+		<li>Statistiques de requête</li>
+		<p><B>Migration de base de données</p></B>
+		<li>Toute base de données compatible ODBC</li>
+		<li> Prise en charge native: Microsoft SQL Server, PostgreSQL, SQL Anywhere, SQLite et Sybase ASE</li>
+		
+		<u> <h2 style="text-align:center;">Installer MySQL </h2> </u>
+	<p> Pour telecharger MySql Gratuit,<a
+	href="https://www.mysql.com/fr/downloads/"> cliquez ici</a> ?<br /> </p>
+	<p> telecharger MySql payant offrant plusieurs éditions,<a
+	href="https://www.mysql.com/fr/downloads/"> cliquez ici</a> ?<br /> </p>
+	<u> <h2 style="text-align:center;"> Versions et plates-formes</h2> </u>
+		<p style="text-align:flushleft;"> My SQL fonctionne sous:</p>
+		<li>Linux</li>
+		<li>Windows</li>
+		<li> Solaris </li>
+		<li>Mac Os X Serveur</li>
+		<li>HP UX</li>
+		<li>AIX</li>
+		<li>SCO</li>
+		<li>SGI Irix</li>
+		<li>DEC OSF</li>
+		<li>BSDI</li>	
+		
+		<p style="text-align:flushleft;"> La derniere version avancée de MySql est la version 8.0.12 sortie le 27 juillet 2018.
+		La version avancée est la version 8.0 RC1 sortie le 25 septembre 2017. </h2></u>
+	
+	<body style="background-color:lightblue;"> 
+		<div>
+			<footer>
+				<p> Copyright 2018 Veille technologique MySql - Toute reproduction interdite</p>
+			</footer>
+		</div>
 	</body>
+
 </html>
