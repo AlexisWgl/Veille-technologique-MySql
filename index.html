@@ -1,6 +1,7 @@
-<!DOCTYPE html> <!-- déclare type html-->
+ <!DOCTYPE html> <!-- déclare type html-->
 <html>
-	<head> <!-- contient métadonnées + liens -->
+	<head><!-- contient métadonnées + liens -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<title> Veille Technologique MySQL </title>
 		<meta charset="UTF-8">
 		<meta http-equiv="Content-Type"
@@ -9,6 +10,7 @@
 		<meta name="description" content="desc">
 		<meta name="keywords" content="veille , technologique , veille technologique, SQL">
 	</head>
+	
 	<body>
 	<link rel="stylesheet" type="text/css" href="STYLE.css" />
 		<h1 style="text-align:center;">Veille technologique MySql</h1> </u>		
@@ -20,54 +22,148 @@
 						<a href="index.html">Accueil</a>
 					</li>
 					<li class="menu-exp">
-						<a href="experiences-pro.html">Expériences professionnelles</a>
+						<a href="ApprendreSQL.html">Apprendre MYSQL</a>
 					</li>
 					<li class="menu-hob">
-					<a href="hobbies.html">Loisirs</a>
+					<a href="Toutsavoir.html">Tout savoir sur MySQL</a>
 					</li>
 					<li class="menu-con">
-					<a href="contact.html">Contactez-moi</a>
+					<a href="contact.html">Contactez-nous</a>
 					</li>
 				</ul>
 			</div>
 		</nav>	
-		<h2>Sommaire</h2>
-		<h2 style="text-align:center;">L'histoire MySql</h2> </u>
-				<!-- histoire du MySql -->
-				<p style="text-align:flushleft;"> La 1ère version de MySql est sortie le 23 mai 1995 par la société MYSQLAB, son succès est dû à son caractère Open source.
-			MySQL a été acheté le 16 janvier 2008 pour 1 milliard de dollars par Sun Microsystems. 
-			En 2009,Sun Microsystems a été acquis par Oracle Corporation, mettant entre les mains d'une même société les deux produits concurrents que sont Oracle Database et MySQL. 
-			MySQL est un serveur de base de données développé dans des performances élevées en lecture. 
-			MySQL fonctionne sur différents systèmes d'exploitation tels que Windows,Linux,Mac OS et supporte deux langages informatique : le langage de requête SQL et le SQL/PSM.
-				</p>
-				<a
-					href="https://www.mysql.com/fr/"
-					target="_blank">
-				<img 
-					alt="Logo MySql" 
-					Title="Logo MySql"
-					src="http://www.nglesson.com/img/sql.png" height="352" width="470""align="center"/>
-				</a>
 			<u>
-				<h2 style="text-align:center;">Les licences</h2> </u>
-			<u>	<p style="text-align:flushleft;"> Deux types de licences sont proposés par MysQL:
-				</p> </u>
-		<li> Licence Commerciale </li>
-		<p style="text-align:flushleft;"> Licence payante regroupant plusieurs éditions, MySql Standard, MySql Enterprise, MySql Cluster et MySql Embedded. </p>
-		<li> Licence GPL (MySQL gratuit)</li>
-		<p style="text-align:flushleft;"> MySql Community Edition.
-	<u> <h2 style="text-align:center;"> MySql Workbench</h2> </u>
-		<p style="text-align:flushleft;"> Workbench est un outil graphique puissant déstiné aux: BDA, développeurs et concepteurs.
-		Il offre les outils nécessaires pour: Modéliser les données, développement SQL, la configuration du serveur de BD, sauvegarde etc.
-		il est disponible sous Windows, Linux et Mac OS X </p>
-	<u> <h2 style="text-align:center;">Installer MySQL </h2> </u>
+			<h2 style="text-align:center;">Sommaire</h2></u>
+				<ul id="navigation">
+					<li><a href="#titre1" title="L'histoire de MySql">L'histoire de MySql</a></li>
+					<li><a href="#titre2" title="Les licences">Les licences</a></li>
+					<li><a href="#titre3" title="MySql Workbench">MySql Workbench</a></li>
+					<li><a href="#titre4" title="Installer MySql">Installer MySql</a></li>
+					<li><a href="#titre5" title="Versions et plates-formes">Versions et plates-formes</a></li>
+				</ul>
+				<p> </p>
+				<center> <a
+						href="https://www.mysql.com/fr/"
+						target="_blank">
+					<img 
+						alt="Logo MySql" 
+						Title="Logo MySql"
+						src="http://www.nglesson.com/img/sql.png" height="152" width="270""align="center"/>
+						</a> </center>
+			<u>
+			<div id="titre1"> <h2 style="text-align:center;">L'histoire de MySql</h2> </u></div>
+				<!-- histoire du MySql -->
+							<p style="text-align:flushleft;"> MySQL est un <B>système de gestion de bases de données relationnelles</B>. Il est distribué sous une double licence GPL et propriétaire. Sa 1ère version est sortie le 23 mai 1995 par la société MYSQLAB, son succès est dû à son caractère Open source.
+								MySQL a été acheté le 16 janvier 2008 pour 1 milliard de dollars par Sun Microsystems. 
+								En 2009,Sun Microsystems a été acquis par <B>Oracle Corporation</B>, mettant entre les mains d'une même société les deux produits concurrents que sont Oracle Database et MySQL. 
+								MySQL est un serveur de base de données développé dans des performances élevées en lecture. 
+								MySQL fonctionne sur différents systèmes d'exploitation tels que <B>Windows,Linux,Mac OS</B> et supporte deux langages informatique : <B>le langage de requête SQL et le SQL/PSM</B>.
+								Le langage de requête SQL est un langage informatique utilisé pour accéder aux données d'une base de données ou d'autres systèmes d'information. Il permet d'obtenir les données vérifiant certaines conditions, comme toutes les personnes qui habitent une ville donnée. Les données peuvent être triées, elles peuvent également être regroupées suivant les valeurs d'une donnée particulière.
+								SQL / PSM ( SQL / modules persistants stockés) est une norme ISO qui définit principalement une extension de SQL avec un langage procédural à utiliser dans les procédures stockées .
+							</p>
+							<p> MariaDB est un <B>fork</B> du système de gestion de bases de données SGBD MySQL. 
+								Son créateur, <B>Michael Widenius</B> (le plus souvent surnommé Monty) était également l’auteur de MySQL, et lorsque celui-ci fut racheté par Sun en janvier 2008 pour un milliard de dollars, Widenius travailla un temps pour la firme. 
+								Le 5 février 2009, il annonce sa <B>démission</B> et fondera peu après sa propre société, <B>Monty Program AB</B>.
+
+								Le Finlandais souhaitait alors reprendre le développement d’un SGBD dans la lignée de MySQL, Sun ayant été racheté entre temps par Oracle. 
+								Widenius a toutefois adopté un modèle particulier pour ses activités : la totalité du code source est sous licence GPL mais tout code produit par les développeurs tiers doit être validé par son entreprise pour garder une cohérence. 
+								Entreprise qui, par ailleurs, appartient à ses employés, Widenius n’ayant lui-même aucune part.
+
+								L’objectif de MariaDB est de <B>progresser tout en gardant une compatibilité absolue avec MySQL</B>. 
+								Cela comprend notamment une équivalence des bibliothèques, des API et des commandes. 
+								Une équivalence qui permet à MariaDB d’arriver comme remplaçant de MySQL sans nécessiter de trop grands travaux. 
+								Wikipedia a d’ailleurs franchi le pas en décembre 2012. D’autres sociétés ont également été séduites : Particuliers à Particuliers, Pierre et Vacances, Center Parc, Paybox ou encore la RTBF (Radio Télévision Belge Francophone).
+							</p> 
+			<u>		
+			<div id="titre2"> <h2 style="text-align:center;">Les licences</h2> </u></div>
+							<B><p <span style="color: #3399ff;" style="text-align:flushleft;"> Deux types de licences sont proposées par MysQL:</p> </B>
+							<li> Licence Commerciale </li>
+							<p style="text-align:flushleft;"> Licence payante regroupant plusieurs éditions, MySql Standard, MySql Enterprise, MySql Cluster et MySql Embedded. </p>
+							<li> Licence GPL (MySQL gratuit)</li>
+							<p style="text-align:flushleft;"> MySql Community Edition.
+							<B><p <span style="color: #3399ff;" style="text-align:flushleft;"> A savoir:</p></B>
+							<li><B>MySql Community Edition</B> est la version téléchargeable gratuite de MySQL, disponible sous licence GPL (General Public License) GNU.</li>
+							<li><B>MySQL Standard Edition</B> est l'offre de SGBDR d'entrée de gamme pour les applications de traitement de transactions.</li>
+							<li><B>MySQL Enterprise Edition</B> propose en plus des fonctionnalités avancées, des outils de gestion (dont OEM pour MySQL) et une assistance technique.</li>
+							<li><B>MySQL Cluster Carrier Grade Edition</B> est conçue pour le développement Web et Cloud.</li>
+							<p style="text-align:flushleft,">MySQL Cluster est un SGBD open source adaptable, conçu pour fournir des performances et une disponibilité élevées à de nombreux types d'applications métier. 
+							Par exemple, MySQL Cluster pilote les bases d'abonnés des principaux fournisseurs de services de télécommunication et est utilisé au niveau mondial pour la détection des fraudes dans les transactions financières. 
+							</p>
+			<div id="titre3"> <u> <h2 style="text-align:center;"> MySql Workbench</h2> </u></div>
+						<p style="text-align:flushleft;"> Workbench est un outil graphique puissant déstiné aux: BDA, développeurs et concepteurs.
+						Il offre les outils nécessaires pour: Modéliser les données, développement SQL, la configuration du serveur de BD, sauvegarde etc.
+						il est disponible sous Windows, Linux et Mac OS X </p>
+						<center><p class="flotte">
+						<img src="https://media0.giphy.com/media/a9d3bbcM3ImXe/giphy.gif?cid=3640f6095be941df52454a41590779d5" height="252" width="270" alt="" /></p></center>
+							<p><U>Les principales caractéristiques de MySql Workbench sont les suivantes:</U></p>
+							<p><B><span style="color: #3399ff;">General</B></p>
+							<li> Connexion à la base de données et gestion des instances</li>
+							<li>Actions dirigées par un assistant</li>
+							<li>Entièrement scriptable avec Python et Lua</li>
+							<li>Prise en charge des plugins personnalisés</li>
+							<li>Compatible avec MSAA (windows accessibility API)</li>
+							<li>Prise en charge des fonctionnalités de MySQL Entreprise</li>
+						<p><B><span style="color: #3399ff;">Éditeur SQL</B><p>
+							<li>Navigation, inspection et recherche des objets de schéma</li>
+							<li>Surligneur de syntaxe SQL et analyseur d'instructions</li>
+							<li>Complétion de code SQL et aide contextuelle</li>
+							<li>Ensembles des résultats multiples et modifiables</li>
+							<li>Visual EXPLAIN</li>
+							<li>Collections d'extraits de code SQL</li>
+							<li>Tunneling de connexion SSH</li>
+							<li>Support Unicode</li>
+						<p><B><span style="color: #3399ff;">La modélisation des données</B></p>
+							<li>Diagramme ER</li>
+							<li>Modélisation visuelle Drag'n'Drop</li>
+							<li>Synchronisation de schéma</li>
+							<li>Impresion de modèles</li>
+						<p><B><span style="color: #3399ff;">Administration des bases de données</p></B>
+							<li>Démarrer et arrêter des instances de base de données</li>
+							<li>Configuration de l'instance</li>
+							<li>Gestion de compte de base de données</li>
+							<li>Parcourir les variables d'instance</li>
+							<li>Navigation dans le fichier journal</li>
+							<li>Import/export de données</li>
+						<p><B><span style="color: #3399ff;">Suivi de la performance</B><p>
+							<li>Métriques du schéma de performances</li>
+							<li>Tableau de bord d'instance MySql</li>
+							<li>Statistiques de requête</li>
+						<p><B><span style="color: #3399ff;">Migration de base de données</p></B>
+							<li>Toute base de données compatible ODBC</li>
+							<li> Prise en charge native: Microsoft SQL Server, PostgreSQL, SQL Anywhere, SQLite et Sybase ASE</li>
+			
+			<div id="titre4"><u> <h2 style="text-align:center;">Installer MySQL </h2> </u></div>
+						<p> Pour telecharger MySql Gratuit,<a
+						href="https://www.mysql.com/fr/downloads/"> cliquez ici</a> ?<br /> </p>
+						<p> telecharger MySql payant offrant plusieurs éditions,<a
+						href="https://www.mysql.com/fr/downloads/"> cliquez ici</a> ?<br /> </p>
+						<center><p><B><span style="color: #3399ff;">Installation du logiciel</B></p></center>
+						<center><p><B>1.</B><U>Windows</U>. Téléchargez MySQL avec l'installeur (MSI Installer), puis exécutez le fichier téléchargé.</p></center>
+						<center><p><B>2.</B><U>Mac OS</U>. Téléchargez l'archive DMG qui vous convient (32 ou 64 bits), double-cliquez ensuite sur ce .dmg pour ouvrir l'image disque.</p></center>
+						<center><p><B>3.</B><U>Linux</U>. Sous Debian ou Ubuntu.</p></center>
+			<div id="titre5"><u> <h2 style="text-align:center;"> Versions et plates-formes</h2> </u></div>
+						<p style="text-align:flushleft;"> My SQL fonctionne sous:</p>
+							<li>Linux</li>
+							<li>Windows</li>
+							<li> Solaris </li>
+							<li>Mac Os X Serveur</li>
+							<li>HP UX</li>
+							<li>AIX</li>
+							<li>SCO</li>
+							<li>SGI Irix</li>
+							<li>DEC OSF</li>
+							<li>BSDI</li>	
 		
+						<p style="text-align:flushleft;"> La derniere version avancée de MySql est la version 8.0.12 sortie le 27 juillet 2018.
+							La version avancée est la version 8.0 RC1 sortie le 25 septembre 2017. </h2></u>
+	
+	<body>
+		<div>
+			<footer>
+				<p> Copyright 2018 Veille technologique MySql - Toute reproduction interdite</p>
+			</footer>
+		</div>
 	</body>
-	<body style="background-color:lightblue;"> 
-	</body>
-	<div>
-	<object type="application/x-shockwave-flash" width="425" height="355" data="https://www.youtube.com/watch?v=vEhE_CRfDPU">
-		<param name="movie" value="https://www.youtube.com/watch?v=vEhE_CRfDPU" />
-	</object>
-</div>
+
 </html>

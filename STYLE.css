@@ -4,11 +4,14 @@ body{
 	margin: 0px;
 	padding: 0px;
 }
-
+.flotte{
+	float:right;
+}
 h1{
 	font-size: 40px;
 	font-weight: normal;
 	text-align: center;
+	color: #6495ED;
 }
 
 header{
@@ -22,7 +25,6 @@ footer{
 	background-color: #424558;
 	border-top: #a6a6a6;
 }
-
 nav li{
 	list-style-type: none;
 	float: left;

@@ -1,0 +1,86 @@
+<!DOCTYPE html> <!-- déclare type html-->
+<html>
+	<head><!-- contient métadonnées + liens -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title> Veille Technologique MySQL </title>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type"
+		meta content="text/html">
+		<meta name="author" content="Nicolas, Alexis">
+		<meta name="description" content="desc">
+		<meta name="keywords" content="veille , technologique , veille technologique, SQL">
+	</head>
+	
+	<body>
+	<link rel="stylesheet" type="text/css" href="STYLE.css" />
+		<h1 style="text-align:center;">Apprendre MySQL</h1> </u>		
+		<nav>
+			<div class="table">
+				<ul>
+					<!--Menu de navigation du site -->
+					<li class="menu-ind">
+						<a href="index.html">Accueil</a>
+					</li>
+					<li class="menu-exp">
+						<a href="ApprendreSQL.html">Apprendre MYSQL</a>
+					</li>
+					<li class="menu-hob">
+					<a href="Toutsavoir.html">Tout savoir sur MySQL</a>
+					</li>
+					<li class="menu-con">
+					<a href="contact.html">Contactez-nous</a>
+					</li>
+				</ul>
+			</div>
+		</nav>	
+		
+		<u> <h2 style="text-align:center;">LES BASES</h2> </u>
+				<p style="text-align:flushleft;"><B>Créer une base de données:</B> Avant de pouvoir créer nos table il faut commencer par créer une base de donnée qui nous permettra de stocker les différentes informations associées à notre site Web. Ce sera l'occasion de découvrir le langage SQL qui permet de piloter les différentes actions à réaliser sur MySQL.</p>
+				<h3 style="text-align:left;"><B>Les requêtes à retenir</B></p></h3>
+				<p>Pour créer une base de donnée simplement :</p>
+				<p><span style="color: #3399ff;">CREATE DATABASE nom;</p>
+				<p>Et si on souhaite aussi définir l'encodage et l'interclassement :</p>
+				<p><span style="color: #3399ff;">CREATE DATABASE nom</p>
+				<p><span style="color: #3399ff;">DEFAULT CHARACTER SET utf8</p>
+				<p><span style="color: #3399ff;">DEFAULT COLLATE utf8_general_ci;</p>
+				<p>Maintenant que nous avons vu comment créer notre base de données, nous sommes en mesure de créer les tables qui permettront de stocker les différentes informations de notre application web.</p>
+				<p>Nous allons maintenant rentrer dans le vif du sujet avec les requêtes SQL principales.</p>
+				<h3 style="text-align:left;"><B>Les requêtes à retenir</B></p></h3>
+				<p>Pour insérer une ligne :</p>
+				<p><span style="color: #3399ff;">INSERT INTO table VALUES (valeur1, valeur2....)</p>
+				<p><span style="color: #3399ff;">INSERT INTO table (champ1, champ2) VALUES (valeurduchamps1, valeurduchamps2);</p>
+				<p>Pour insérer plusieurs lignes en une seule requête :</p>
+				<p><span style="color: #3399ff;">INSERT INTO table (champs1, champs2) VALUES</p>   
+				<p><span style="color: #3399ff;">(valeur1_ligne1, valeur2_ligne1),</p>
+				<p><span style="color: #3399ff;">(valeur1_ligne2, valeur2_ligne2);</p>
+				<p>Syntaxe d'insertion alternative (propre à MySQL) : </p>
+				<p><span style="color: #3399ff;">INSERT INTO table SET champs1 = valeur1, champs2 = valeur2;</p>
+				<p> Après avoir enregistré nos premières données nous allons maintenant voir comment les supprimer.</p>
+				<h3 style="text-align:left;"><B>Les requêtes à retenir</B></p></h3>
+				<p>Pour supprimer une ligne:</p>
+				<p><span style="color: #3399ff;">DELETE FROM table WHERE conditions;</p>
+				<p>Pour vider complètement une table:</p>
+				<p><span style="color: #3399ff;">TRUNCATE TABLE table;</p>
+				<p>Une base de données n'est pas figée, il faut pouvoir évoluer et donc pouvoir les modier</p>
+				<h3 style="text-align:left;"><B>Les requêtes à retenir</B></p></h3>
+				<p>Pour modifier une ou plusieurs lignes</p>
+				<p><span style="color: #3399ff;">UPDATE table SET champ=valeur, champ=valeur WHERE (conditions)</p>
+				<p>Pour créer un site dynamique, il est impératif de savoir récupérer les données de notre base de données</p>
+				<p> Afficher les 10 derniers articles, récupérer le nombre d'inscrits sur le site, pour toutes ces opérations il est impotant de maîtriser la requête de sélection: le <B>SELECT</B></p>
+				<h3 style="text-align:left;"><B>Les requêtes à retenir</B></p></h3>
+				<p>Pour sélectionner une ou plusieurs lignes</p>
+				<p><span style="color: #3399ff;">SELECT champ, champs, champs FROM table WHERE (conditions)</p>
+				<p> Si on souhaite compter le nombre de ligne</p>
+				<p><span style="color: #3399ff;">SELECT COUNT(*) FROM table WHERE (conditions)</p>
+				<p> Pour grouper les resultats selon un critère (champ de la table)</p>
+				<p><span style="color: #3399ff;">SELECT COUNT(*), champ FROM table GROUP BY champ WHERE (conditions)</p>
+				
+	<body>
+		<div>
+			<footer>
+				<p> Copyright 2018 Veille technologique MySql - Toute reproduction interdite</p>
+			</footer>
+		</div>
+	</body>
+
+</html>
