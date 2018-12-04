@@ -1,96 +1,90 @@
 body{
 	font-family: 'Century Gothic', Calibri, serif;
-	font-size: 13px;
-	margin: 0px;
-	padding: 0px;
-}
+	font-size: 13px;}
+	
 .flotte{
-	float:right;
-}
+	float:right;}
+	
 h1{
 	font-size: 40px;
 	font-weight: normal;
 	text-align: center;
-	color: #6495ED;
-}
-
+	color: #6495ED;}
+h2{
+	color: #6495ED;}
+	
 header{
-	height: 100px;
-}
+	height: 100px;}
 
 footer{
 	height: 40px;
 	padding-top: 10px;
 	text-align: center;
 	background-color: #424558;
-	border-top: #a6a6a6;
-}
+	border-top: #a6a6a6;}
 nav li{
 	list-style-type: none;
-	float: left;
-}
+	float: left;}
 
 nav ul{
 	margin: 0px;
-	padding: 0px;
-}
+	padding: 0px;}
 
 nav{
 	width: 100%;
-	background-color: #424558;
-}
+	background-color: #424558;}
+	
 nav a{
 	display: inline-block;
 	text-decoration: none;
 	padding: 20px 30px; 
 	color: #ffffff;
 	text-transform: ippercase;
-	font-size: 15px;
-}
+	font-size: 15px;}
+	
 .table{
 	display: table;
-	margin: 0 auto;
-}
+	margin: 0 auto;}
 
 .menu-ind:hover{
 	border-top:#a6a6a6;
-	background-color: lightgreen;
-}
-.menu-exp:hover{
+	background-color: lightgreen;}
+	
+.menu-app:hover{
 	border-top:#a6a6a6;
-	background-color: lightgreen;
-}
-.menu-hob:hover{
+	background-color: lightgreen;}
+	
+.menu-sav:hover{
 	border-top:#a6a6a6;
-	background-color: lightgreen;
-}
+	background-color: lightgreen;}
+	
 .menu-con:hover{
 	border-top:#a6a6a6;
-	background-color: lightgreen;
-}
+	background-color: lightgreen;}
+	
 nav li:hover a{
-	padding: 15px 30px 20px 30px;
-}
+	padding: 15px 30px 20px 30px;}
+	
 body 
 {
 	padding-left: 10%;
-	padding-right: 10%;
-}
+	padding-right: 10%;}
+	
 #navigation li {
-  display: inline;
-}
+  display: inline;}
+  
 #navigation {
   margin: 0 ;
   padding: 0 ;
   list-style: none ;
-  text-align: center ;
-}
+  text-align: center ;}
+  
 #navigation li {
   display: inline ;
   margin-right: 1px ;
   color: #fff ;
-  background: #424558 ;
-}
+  background: #424558 ;}
+  
 #navigation li a {
   padding: 4px 20px ;
   background: #424558 ;
@@ -99,9 +93,53 @@ body
   font: 1em "Trebuchet MS",Arial,sans-serif ;
   line-height: 1em ;
   text-align: center ;
-  text-decoration: none ;
-}
+  text-decoration: none ;}
+  
 #navigation li a:hover, #navigation li a:focus, #navigation li a:active {
   background: lightgreen ;
-  text-decoration: underline ;
-}
+  text-decoration: underline ;}
+
+i{
+	border:solid;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	color: #5CB85C;}
+	
+.left{
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+	color: #5CB85C;}
+	
+.right {
+	transform: rotate(-45def);
+	-webkit-transform: rotate(-45deg);}
+	
+.verte{
+	background-color:#e7e9ed;}
+	
+p{ 
+	line-height:normal;
+	text-align: justify;
+	margin-left: 40px;
+	text-indent: 10px;
+	margin-right: 20px;}
+	
+li{
+	margin-left: 40px;
+	text-indent: 10px;
+	margin-right: 40px; }
+	
+p.p1{
+	text-align: center;}
+	
+h3{
+	line-height:normal;
+	text-align: justify;
+	margin-left: 40px;
+	text-indent: 10px;
+	margin-right: 40px; }
+	
+p.p2{
+	text-align:center;}	
+

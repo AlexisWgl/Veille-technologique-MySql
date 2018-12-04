@@ -9,10 +9,11 @@
 		<meta name="author" content="Nicolas, Alexis">
 		<meta name="description" content="desc">
 		<meta name="keywords" content="veille , technologique , veille technologique, SQL">
+		<link rel="stylesheet" type="text/css" href="knacss.css" />
+		<link rel="stylesheet" type="text/css" href="STYLE.css" />
 	</head>
 	
 	<body>
-	<link rel="stylesheet" type="text/css" href="STYLE.css" />
 		<h1 style="text-align:center;">Tout savoir sur MySql</h1> </u>		
 		<nav>	
 			<div class="table">
@@ -32,8 +33,7 @@
 				</ul>
 			</div>
 		</nav>
-		<u>
-			<h2 style="text-align:center;"> Les concepts de base :</h2></u>
+			<h2 style="text-align:center;"><i class="arrow right"></i> Les concepts de base <i class="icon left"></h2></i>
 			<h3 style="text-align:left;"> Les bases de données :</h3>
 			<p> Une base de donnée informatique est un ensemble de données qui sont stockées sur un support informatique de manière organisée et structurée. 
 				Une base de données ne fonctionne jamais seule,elle ne peut pas fonctionner sans système permettant de gérer cette base ni sans langage tel que html,python,java etc.</p>
@@ -44,9 +44,18 @@
 			<p> Le R de SGBDR signifie "relationnel",elle sert à stocker des informations dans des tableaux à deux dimensions. Pratiquement tous les systèmes en relation avec le SGBDR utilisent le langage SQL pour communiquer aux bases de données, ce langage permet de faire de l'algèbre relationnel tel que l'union, l'intersection, la différence, la sélection, la projection, la jointure. </p>
 			<h3 style="text-align:left;"> Le langage SQL:</h3>
 			<p> Le SQL (Structured Query Language) est apparue le 23 mai 1995, depuis il y'a eu une dizaine de versions, c'est un langage informatique sui permet de communiquer avec les SGBDR, c'est le langage pour les bases de données le plus répandu.</p>
+			<h3 style="text-align:left;"> Les bonnes raisons pour choisir une base de données SQL:</h3>
+			<p>Chaque technologie utilisée a ses points forts et ses points faibles, et SQL ne sort pas du lot. Voici pourquoi SQL est presque le bon choix pour tout type d’application web.</p>
+			<p><B>L’écosystème de SQL</B> est juste imbattable, c’est un langage qui date de 1974, donc plus de 40 ans d’existence. Pour cette raison, les développeurs sont devant un nombre énorme d’outils et de services auxquels ils peuvent recourir.
+				SQL est enseigné dans toutes les universités et les écoles d’informatique du monde. Les solutions matures de SQL ne manquent pas, de PHPMyAdmin et SQLAlchemy à Pony ORM. Les opérateurs cloud publics proposent également des bases de données SQL en tant que service que vous pouvez utiliser sans effort (Amazon RDS, Google Cloud SQL and Azure SQL Database).</p>
+			<p><B>Les transactions et les propriétés ACID:</B> SQL offre une chose que tous les gens responsables d’applications web en production cherchent à assurer, la tranquillité d’esprit à propos de leurs données. Cela est dû au fait que toute solution SQL dans le marché vous permet de regrouper plusieurs requêtes SQL dans des unités de travail conforme au standard ACID (appelées transactions).
+				En pratique, cela veut dire que vous pouvez entrer des changements sur votre base de données regroupés en une seule transaction. Vous pouvez mener toute requête qui concerne des opérations de transaction, comme start transaction, commit, ou rollback, tout en étant sûr de garantir l’atomicité, la cohérence, l’isolation et la durabilité de votre transaction. 
+				En d’autres termes, avec SQL, vous pouvez être sûr d’arriver à votre objectif sans avoir de mauvaises surprises.</p>
+			<p><B>Le stockage</B> Un autre aspect important des systèmes de base de données SQL pour les applications en production est sa capacité à faire des économies sur l’espace de stockage. En effet, SQL a besoin d’une structure de table prédéfinie pour enregistrer les données. Cela permet d’enregistrer seulement les contenus dans chaque ligne et chaque colonne dans le disque. Au contraire, avec les solutions NoSQL, vous aurez à enregistrer tout le document (toutes les valeurs) sur le disque, puisqu’il n’existe pas de structure prédéfinie pour les documents stockés dans chaque collection. Plus vos données deviennent importantes, plus le problème s’amplifie avec plusieurs gigabytes de données NoSQL. 
+				Cet article ne vise pas à chahuter les magasins de données NoSQL. Loin de là, il y a des solutions NoSQL dans le marché qui sont utilisées dans presque tout type d’application web en production. Il s’agit ici de montrer qu’il ne faut pas considérer NoSQL comme une solution à tous nos problèmes de stockage de données, pour la simple raison que cette solution parait être simple. On a déjà des solutions SQL matures et bien établies qui ont déjà fait leurs preuves et répondent à tous nos besoins en la matière. (source:<a href="https://stateofprogress.blog/choose-sql-d017cfc08870"> stateofprogress.blog</a>) </p>
 		<div>
 			<footer>
-				<p> Copyright 2018 Veille technologique MySql - Toute reproduction interdite</p>
+				<p class="p1"> Copyright 2018 Veille technologique MySql - Toute reproduction interdite</p>
 			</footer>
 		</div>
 	</body>

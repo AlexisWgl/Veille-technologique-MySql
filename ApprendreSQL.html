@@ -9,10 +9,11 @@
 		<meta name="author" content="Nicolas, Alexis">
 		<meta name="description" content="desc">
 		<meta name="keywords" content="veille , technologique , veille technologique, SQL">
+		<link rel="stylesheet" type="text/css" href="knacss.css" />
+		<link rel="stylesheet" type="text/css" href="STYLE.css" />
 	</head>
 	
 	<body>
-	<link rel="stylesheet" type="text/css" href="STYLE.css" />
 		<h1 style="text-align:center;">Apprendre MySQL</h1> </u>		
 		<nav>
 			<div class="table">
@@ -33,8 +34,7 @@
 				</ul>
 			</div>
 		</nav>	
-		
-		<u> <h2 style="text-align:center;">LES BASES</h2> </u>
+		<h2 style="text-align:center;"><i class="arrow right"></i> LES BASES <i class="icon left"></h2></i>
 				<p style="text-align:flushleft;"><B>Créer une base de données:</B> Avant de pouvoir créer nos table il faut commencer par créer une base de donnée qui nous permettra de stocker les différentes informations associées à notre site Web. Ce sera l'occasion de découvrir le langage SQL qui permet de piloter les différentes actions à réaliser sur MySQL.</p>
 				<h3 style="text-align:left;"><B>Les requêtes à retenir</B></p></h3>
 				<p>Pour créer une base de donnée simplement :</p>
@@ -74,11 +74,13 @@
 				<p><span style="color: #3399ff;">SELECT COUNT(*) FROM table WHERE (conditions)</p>
 				<p> Pour grouper les resultats selon un critère (champ de la table)</p>
 				<p><span style="color: #3399ff;">SELECT COUNT(*), champ FROM table GROUP BY champ WHERE (conditions)</p>
-				
+				<p>Maintenant que nous avons vu les requêtes de bases je vous propose de découvrir les fonctions au sein de MySQL. Ces fonctions vont vous permettre de manipuler les champs récupérés et nous allons commencer par<a href="https://dev.mysql.com/doc/refman/8.0/en/numeric-functions.html"> les fonctions pour manipuler les champs numériques.</a></p>
+				<p>Avec MySQL il est aussi possible de  <a href="https://dev.mysql.com/doc/refman/8.0/en/string-functions.html"> manipuler les chaînes de caractères</a> pour faire les différentes opérations dont on pourrait avoir besoin. Ce ne sont pas des fonctions que l'on rencontre quotidiennement lorsque l'on travaille avec MySQL mais il est important de les connaitre.</p>
+				<p>Avec MySQL il est aussi possible de  <a href="https://dev.mysql.com/doc/refman/5.6/en/date-and-time-functions.html"> manipuler les dates</a> pour faire les différentes opérations dont on pourrait avoir besoin. Ce sont des fonctions très utiles que vous retrouverez souvent en travaillant avec MySQL.</p>
 	<body>
 		<div>
 			<footer>
-				<p> Copyright 2018 Veille technologique MySql - Toute reproduction interdite</p>
+				<p class="p1"> Copyright 2018 Veille technologique MySql - Toute reproduction interdite</p>
 			</footer>
 		</div>
 	</body>
